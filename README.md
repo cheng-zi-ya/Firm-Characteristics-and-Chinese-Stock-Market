@@ -1,2 +1,2 @@
 # Firm-Characteristics-and-Chinese-Stock-Market
-It is a project that conducts a study on predicting the cross section of Chinese stock market returns with a large panel of 75 individual firm characteristics and also uses  “big-data” econometric methods.
+对一篇论文的复现，对国内股票市场的投资实操具有比较大的意义，大家可以参考。如果有帮助，望star哦:)
