@@ -18,9 +18,9 @@
 ## 效果展示  
   
 这里放上两张论文中的图片，一张是单因子的效果图，一张是pls组合的效果：  
-![image](http://github.com/cheng-zi-ya/Firm-Characteristics-and-Chinese-Stock-Market/raw/master/photos/factors.png)  
+![image](https://raw.githubusercontent.com/cheng-zi-ya/Firm-Characteristics-and-Chinese-Stock-Market/main/photos/factors.png)  
   
-![image](http://github.com/cheng-zi-ya/Firm-Characteristics-and-Chinese-Stock-Market/raw/master/photos/pls.png)  
+![image](https://raw.githubusercontent.com/cheng-zi-ya/Firm-Characteristics-and-Chinese-Stock-Market/main/photos/pls.png)  
   
 ## 使用教程  
   
