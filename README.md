@@ -1,28 +1,30 @@
 # Firm-Characteristics-and-Chinese-Stock-Market
-对一篇论文的复现，感谢该论文的作者！其对国内股票市场的投资实操具有比较大的意义，大家可以参考。如果有帮助，望star哦😀  
-  
-这里上传的数据不是完整的数据，大家在自己做的时候可以自己整理新的一份A股数据，然后将项目中的流程应用就可以了。  
-  
-之后会对本项目进行补充，使得更完善一些。 
-  
-  
-## 介绍  
 
-本项目是对论文《Firm Characteristics and Chinese Stock Market》的实现，其主要包含了75个关于公司和股票特征的经典指标的计算，以及在中国市场上的检验，并使用了一些整合因子的方法，指导实际投资。  
-  
-在本项目的文件中，pdf文件即为对应的论文，而data.csv文件是给出了一个数据样例（是从全部的数据中抽取出了一些公司），而factor_test_monthly.py文件是对于单个因子的回报检验并使用五因子模型对其进行检验，fm.py, pca.py, pls.py和fc.py为对应的四个因子整合的方法。
+It is a project that want to accomplish several interesting algorithms to combine features and make predictions. The main reference in the beginning is the paper 'Firm Characteristics and Chinese Stock Market'.
 
-其中，pls和fc的效果比较好，放到实际中，可以对在A股市场取得不错的收益。在论文中，pls对应的多空组合是 2.60%的月度收益，这样的年化大约是31.2%，可以说是比较不错的效果了。（论文中的测试期: 2003-06至2016-12）.
+I am still working to add more tools in this project.
+
   
+## Introduction
+
+This project tried several algorithms to combine 75 stock market factors based on companies and financial features. Also, it provided tools to check the performance of stock factors.
+
+Among all files, the pdf file is the corresponding paper, and the data.csv provides a data sample. Moreover, factor_test_monthly.py includes backtesting on single factors. fm.py, pca.py, pls.py and fc.py provides 4 algorithms.
+
+We could find that pls and fc have better performance on Chinese stock market. It could achieved about 2.60% monthly return during 2003-06 ~ 2016-12.
+
   
-## 效果展示  
+## Results 
   
-这里放上两张论文中的图片，一张是单因子的效果图，一张是pls组合的效果：  
+Two results pictures:
+
 ![image](https://raw.githubusercontent.com/cheng-zi-ya/Firm-Characteristics-and-Chinese-Stock-Market/main/photos/factors.png)  
   
 ![image](https://raw.githubusercontent.com/cheng-zi-ya/Firm-Characteristics-and-Chinese-Stock-Market/main/photos/pls.png)  
+
+
+## Usage
   
-## 使用教程  
-  
-factor_test_monthly.py： 对单因子进行测试和评价；
-fm.py, pca.py, pls.py和fc.py： 对于因子进行聚合，形成对应的值，测试其的效果。
+factor_test_monthly.py： backtesting and evaluation on single factors.
+fm.py, pca.py, pls.py和fc.py： algorithms to combine factors.
+
